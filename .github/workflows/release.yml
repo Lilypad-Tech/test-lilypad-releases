@@ -42,7 +42,8 @@ jobs:
       tag_name: ${{ steps.release.outputs.tag_name }}
 
   merge:
-    if: needs.release.outputs.prs_created == 'true' && needs.release.outputs.releases_created == 'false'
+    # if: needs.release.outputs.prs_created == 'true' && needs.release.outputs.releases_created == 'false'
+    if: false
     name: Merge Release PR
     needs: release
     runs-on: ubuntu-latest
