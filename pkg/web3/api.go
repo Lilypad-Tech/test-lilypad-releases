@@ -13,6 +13,10 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
+// Not really, but some fix for testing releases.
+//
+//
+
 func (sdk *Web3SDK) GetServiceAddresses(serviceType string) ([]common.Address, error) {
 	solverType, err := data.GetServiceType(serviceType)
 	if err != nil {
