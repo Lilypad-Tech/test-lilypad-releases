@@ -95,10 +95,10 @@ jobs:
             goarch: amd64
             gpu: true
             runner: ubuntu-latest
-          - goos: linux
-            goarch: arm64
-            gpu: true
-            runner: linux-arm64
+          # - goos: linux
+          #   goarch: arm64
+          #   gpu: true
+          #   runner: linux-arm64
           - goos: darwin
             goarch: amd64
             gpu: false
