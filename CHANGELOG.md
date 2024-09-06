@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/Lilypad-Tech/test-lilypad-releases/compare/v2.3.0...v2.3.1) (2024-09-06)
+
+
+### Bug Fixes
+
+* Two ([#36](https://github.com/Lilypad-Tech/test-lilypad-releases/issues/36)) ([e07879e](https://github.com/Lilypad-Tech/test-lilypad-releases/commit/e07879e02732cc314ff5cc58a596d2984c776766))
+
 ## [2.3.0](https://github.com/Lilypad-Tech/test-lilypad-releases/compare/v2.2.2...v2.3.0) (2024-08-30)
 
 
